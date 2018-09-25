@@ -7,12 +7,14 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          <h1 className="App-title">Welcome to Clicky Game</h1>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <div className="jumbotron">
+          <h3>Click on Each Image to Get Points</h3>
+          <h4>But don't click on any one more than once!</h4>
+        </div>
+        <div id="score"></div>
+        <div id="image-holder">`</div>
       </div>
     );
   }

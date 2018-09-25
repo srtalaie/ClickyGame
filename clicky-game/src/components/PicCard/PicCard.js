@@ -6,11 +6,34 @@ class PicCard {
         images: []
     }
 
-    
-
     render() {
         return (
-
+            <div>
+                <div className="row">
+                    <div id="picCard" className="img-fluid">></div>
+                    <div id="picCard" className="img-fluid">></div>
+                    <div id="picCard" className="img-fluid">></div>
+                    <div id="picCard" className="img-fluid">></div>
+                </div>
+                <div className="row">
+                    <div id="picCard" className="img-fluid">></div>
+                    <div id="picCard" className="img-fluid">></div>
+                    <div id="picCard" className="img-fluid">></div>
+                    <div id="picCard" className="img-fluid">></div>
+                </div>
+                <div className="row">
+                    <div id="picCard" className="img-fluid"></div>
+                    <div id="picCard" className="img-fluid">></div>
+                    <div id="picCard" className="img-fluid">></div>
+                    <div id="picCard" className="img-fluid">></div>
+                </div>
+                <div className="row">
+                    <div id="picCard" className="img-fluid">></div>
+                    <div id="picCard" className="img-fluid">></div>
+                    <div id="picCard" className="img-fluid">></div>
+                    <div id="picCard" className="img-fluid">></div>
+                </div>
+            </div>
         );
     }
 }
