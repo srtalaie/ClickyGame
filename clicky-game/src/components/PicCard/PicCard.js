@@ -2,11 +2,14 @@ import React from 'react';
 
 class PicCard {
     state = {
-        clicked: false
+        clicked: false,
+        images: []
     }
 
+    
+
     render() {
-        return(
+        return (
 
         );
     }
