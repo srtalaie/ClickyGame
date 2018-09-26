@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "image": "./assets/House_Arryn.png",
+        "clicked": false
+      },
+      {
+        "id": 2,
+        "image": "./assets/House_Baratheon.png",
+        "clicked": false
+      },
+      {
+        "id": 3,
+        "image": "./assets/House_Blackwood.png",
+        "clicked": false
+      },
+      {
+        "id": 4,
+        "image": "./assets/House_Greyjoy.png",
+        "clicked": false
+      },
+      {
+        "id": 5,
+        "image": "./assets/House_Lannister.png",
+        "clicked": false
+      },
+      {
+        "id": 6,
+        "image": "./assets/House_Mallister.png",
+        "clicked": false
+      },
+      {
+        "id": 7,
+        "image": "./assets/House_Mormont.png",
+        "clicked": false
+      },
+      {
+        "id": 8,
+        "image": "./assets/House_Stark.png",
+        "clicked": false
+      },
+      {
+        "id": 9,
+        "image": "./assets/House_Martell.png",
+        "clicked": false
+      },
+      {
+        "id": 10,
+        "image": "./assets/House_Swann.png",
+        "clicked": false
+      },
+      {
+        "id": 11,
+        "image": "./assets/House_Tyrell.png",
+        "clicked": false
+      },
+      {
+        "id": 12,
+        "image": "./assets/House_Royce.png",
+        "clicked": false
+      }
+]
