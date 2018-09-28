@@ -2,61 +2,61 @@
     {
         "id": 1,
         "image": "https://awoiaf.westeros.org/thumb.php?f=House_Arryn.svg&width=218&lang=en",
-        "clicked": false
+        "clicked": "false"
       },
       {
         "id": 2,
         "image": "https://awoiaf.westeros.org/thumb.php?f=House_Baratheon.svg&width=218&lang=en",
-        "clicked": false
+        "clicked": "false"
       },
       {
         "id": 3,
         "image": "https://awoiaf.westeros.org/images/3/36/House_Blackwood.png",
-        "clicked": false
+        "clicked": "false"
       },
       {
         "id": 4,
         "image": "https://awoiaf.westeros.org/thumb.php?f=House_Greyjoy.svg&width=218&lang=en",
-        "clicked": false
+        "clicked": "false"
       },
       {
         "id": 5,
         "image": "https://awoiaf.westeros.org/thumb.php?f=House_Lannister.svg&width=218&lang=en",
-        "clicked": false
+        "clicked": "false"
       },
       {
         "id": 6,
         "image": "https://awoiaf.westeros.org/thumb.php?f=House_Tully.svg&width=218&lang=en",
-        "clicked": false
+        "clicked": "false"
       },
       {
         "id": 7,
         "image": "https://awoiaf.westeros.org/images/c/c9/House_Mormont.PNG",
-        "clicked": false
+        "clicked": "false"
       },
       {
         "id": 8,
         "image": "https://awoiaf.westeros.org/thumb.php?f=House_Stark.svg&width=218&lang=en",
-        "clicked": false
+        "clicked": "false"
       },
       {
         "id": 9,
         "image": "https://awoiaf.westeros.org/thumb.php?f=House_Martell.svg&width=240&lang=en",
-        "clicked": false
+        "clicked": "false"
       },
       {
         "id": 10,
         "image": "https://awoiaf.westeros.org/images/a/a9/House_Swann.PNG",
-        "clicked": false
+        "clicked": "false"
       },
       {
         "id": 11,
         "image": "https://awoiaf.westeros.org/thumb.php?f=House_Tyrell.svg&width=218&lang=en",
-        "clicked": false
+        "clicked": "false"
       },
       {
         "id": 12,
         "image": "https://awoiaf.westeros.org/images/e/ed/Royce.png",
-        "clicked": false
+        "clicked": "false"
       }
 ]
