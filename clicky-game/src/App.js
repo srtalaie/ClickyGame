@@ -17,6 +17,12 @@ function shuffleArray(array){
 
 class App extends Component {
 
+  resetGame = () => {
+    this.setState(shuffleArray(this.state.Images));
+    this.setState({score: 0});
+    this.setState({clicked: []});
+  }
+
   state = {
     Images,
     score: 0,
@@ -29,12 +35,16 @@ class App extends Component {
   }
 
   handleClick = (id) => {
-
     if(this.state.clicked.includes(id)){
-      this.setState(shuffleArray(this.state.Images));
-      this.setState({score: 0});
-      this.setState({clicked: []});
+      this.resetGame();
       this.setState({winLose: "    You Lose! Click on a House Banner to start again."});
+    } else if (this.state.score === 11){
+      this.resetGame();
+      this.setState({score: 12});
+      this.setState({winLose: "    Congrats you win! Click a House Banner to start again."});
+    }else if (this.state.score >= 12){
+      this.resetGame();
+      this.setState({winLose: ""});
     } else {
       this.setState(shuffleArray(this.state.Images));
       this.setState({clicked: [...this.state.clicked, id]});
